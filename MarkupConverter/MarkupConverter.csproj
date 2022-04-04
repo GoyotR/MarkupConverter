@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net4.8-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <StartupObject>
     </StartupObject>
@@ -59,7 +59,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
 	<PackageReference Include="Microsoft.Windows.Compatibility">
-		<Version>5.0</Version>
+		<Version>4.8</Version>
     </PackageReference>
   </ItemGroup>
 </Project>
