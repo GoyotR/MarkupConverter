@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkupConverter", "MarkupConverter\MarkupConverter.csproj", "{DC692379-518F-4241-9BBA-4E3F4A9BCE13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkupConverter", "MarkupConverter\MarkupConverter.csproj", "{DC692379-518F-4241-9BBA-4E3F4A9BCE13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B3EDCCF-65F9-4EE4-85EF-A9EE39D9E2EF}
 	EndGlobalSection
 EndGlobal
