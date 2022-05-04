@@ -246,9 +246,6 @@ namespace MarkupConverter
                     case "TargetName":
                         htmlWriter.WriteAttributeString("TARGET", xamlReader.Value);
                         break;
-				
-		    case "linebreak":
-			htmlWriter.WriteAttributeString("BR", xamlReader.Value);
                 }
 
                 if (css != null)
@@ -504,6 +501,9 @@ namespace MarkupConverter
                         break;
                     case "Hyperlink":
                         htmlElementName = "A";
+                        break;
+                    case "LineBreak":
+                        htmlElementName = "BR";
                         break;
                     default :
                         htmlElementName = null; // Ignore the element
