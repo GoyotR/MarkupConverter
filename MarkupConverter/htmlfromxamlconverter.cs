@@ -246,6 +246,9 @@ namespace MarkupConverter
                     case "TargetName":
                         htmlWriter.WriteAttributeString("TARGET", xamlReader.Value);
                         break;
+				
+		    case "linebreak":
+			htmlWriter.WriteAttributeString("BR", xamlReader.Value);
                 }
 
                 if (css != null)
